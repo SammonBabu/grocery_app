@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+    android:id="@+id/llContainer">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OrderId" />
+        <TextView
+            android:layout_marginLeft="80dp"
+            android:id="@+id/txtorderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="username" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txtvusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:id="@+id/txtvmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+    <TextView
+        android:layout_marginLeft="90dp"
+        android:id="@+id/txtvaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ttf4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone" />
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:id="@+id/txtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ttf5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash" />
+    <TextView
+        android:layout_marginLeft="115dp"
+        android:id="@+id/txtcash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cash" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ttf6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cashmode" />
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txtcashmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cashmode" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ttf8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deliveryboymail" />
+
+    <TextView
+        android:layout_marginLeft="60dp"
+        android:id="@+id/txtvdrlmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deliveryboymail" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ttf9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+    <TextView
+        android:layout_marginLeft="110dp"
+        android:id="@+id/txtvstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

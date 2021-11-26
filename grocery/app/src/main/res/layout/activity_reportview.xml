@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:id="@+id/llContainer"
+
+    >
+    <TextView
+        android:id="@+id/txtvusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usname" />
+    <TextView
+        android:id="@+id/txtvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usname" />
+    <TextView
+        android:id="@+id/txtc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WriteComplaint" />
+
+    <TextView
+        android:id="@+id/txtvcomplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtviewcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view" />
+
+
+    <TextView
+        android:id="@+id/txtvassigndate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtvstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+
+
+
+</LinearLayout>

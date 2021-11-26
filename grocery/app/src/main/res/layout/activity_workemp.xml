@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtweusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName" />
+
+    <TextView
+        android:id="@+id/txtweemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EmailUser" />
+
+    <TextView
+        android:id="@+id/txtweadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/txtwephne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/txtwecash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash" />
+
+    <TextView
+        android:id="@+id/txtwecashmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CashMode" />
+
+    <Button
+        android:id="@+id/btncart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="#f58600"
+        android:text="Cart" />
+
+    <EditText
+        android:id="@+id/txtwedemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DeliveryBoyemail" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtwestatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:text="Selectstatus" />
+
+    <Spinner
+        android:id="@+id/spinnerstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/status" />
+
+    <Button
+        android:id="@+id/btndone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#f58600"
+        android:text="Done" />
+
+
+</LinearLayout>

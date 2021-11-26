@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="20dp"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+    <EditText
+        android:id="@+id/edpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp" android:text="Designation" />
+
+    <Spinner
+        android:id="@+id/spinnerupdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/designation" />
+
+
+    <EditText
+        android:id="@+id/edmob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile" />
+    <EditText
+        android:id="@+id/edaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+    <Button
+        android:id="@+id/buttonupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FE6666"
+android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Update" />
+</LinearLayout>

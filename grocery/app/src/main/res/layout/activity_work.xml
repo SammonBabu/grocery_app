@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtwuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName" />
+
+    <TextView
+        android:id="@+id/txtwemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EmailUser" />
+
+    <TextView
+        android:id="@+id/txtwadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/txtwphne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/txtwcash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash" />
+
+    <TextView
+        android:id="@+id/txtwcashmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CashMode" />
+
+    <Button
+        android:id="@+id/btnwcart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:layout_marginTop="30dp"
+        android:background="#f58600"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/txtwdemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DeliveryBoyemail" />
+
+    <Button
+        android:id="@+id/btndeliveryboy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deliveryboy"
+        android:layout_marginTop="30dp"
+        android:background="#f58600"
+        android:textColor="#FFF"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/txtwstatus"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:text="ChangeStatus" />
+
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/status" />
+
+    <Button
+        android:id="@+id/btnass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_marginTop="30dp"
+        android:background="#f58600"
+        android:textColor="#FFF"/>
+
+
+
+</LinearLayout>

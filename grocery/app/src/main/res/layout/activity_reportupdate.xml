@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/txtupusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usname"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtupemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usname"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WriteComplaint"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtupcomplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtviewupcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtupassigndate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtupstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp" android:text="Status" />
+
+    <Spinner
+        android:id="@+id/spinnertxtupstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/status" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/Update"
+        android:background="#ff6000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE" />
+</LinearLayout>
